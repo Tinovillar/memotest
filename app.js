@@ -27,7 +27,7 @@ let cardsCopy = Array.from(CARDS); // Convierto una NodeList en un Array
 
 
 
-setTimeout(() => CARDS.forEach((c) => c.style.transform = 'rotateY(0deg)'),750); // Muestro las cartas para que las vea antes de empezar
+setTimeout(() => CARDS.forEach((c) => c.style.transform = 'rotateY(0deg)'), 1000); // Muestro las cartas para que las vea antes de empezar
 
 
 

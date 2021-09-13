@@ -40,7 +40,7 @@ body {
     height: 16vh;
     width: 16vh;
     background-color: orangered;
-    color: black;
+    color: whitesmoke;
     font-size: 1.5rem;
     transition: transform 1s, background-color 1s;
     transform-style: preserve-3d;
@@ -67,9 +67,6 @@ body {
     .card {
         height: 10vh;
         width: 10vh;
-    }
-    .C-memotest {
-        align-content: flex-start;
     }
 }
 
