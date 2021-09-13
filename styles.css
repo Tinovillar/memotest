@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.C-time-score {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.time, .score {
+    font-size: 1.2rem;
+}
+
+.C-memotest {
+    flex-grow: 8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.card {
+    height: 16vh;
+    width: 16vh;
+    background-color: orangered;
+    color: black;
+    font-size: 1.5rem;
+    transition: transform 1s, background-color 1s;
+    transform-style: preserve-3d;
+    font-weight: bold;
+    margin: 5px 5px;
+}
+
+.front {
+    backface-visibility: hidden;
+}
+
+.back {
+    transform: rotateY(180deg);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background-color: blue;
+}
